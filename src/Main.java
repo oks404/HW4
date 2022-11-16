@@ -31,8 +31,49 @@ public class Main {
         else  {
         System.out.println("Простите, но свободных мест нет.");
         }
+//  Задание 3.1
+        int ageSubject = 25;
+        if (ageSubject >= 2 && ageSubject <= 6) {
+            System.out.println("Если возраст человека равен " + ageSubject + ", то ему нужно ходить в детский сад.");
+        }
+        else if (ageSubject >= 7 && ageSubject <= 18) {
+            System.out.println("Если возраст человека равен " + ageSubject + ", то ему нужно ходить в школу.");
+        }
+        else if (ageSubject >= 18 && ageSubject <= 24) {
+            System.out.println("Если возраст человека равен " + ageSubject + ", то ему нужно ходить в университет.");
+        }
+        else {
+            System.out.println("Если возраст человека равен " + ageSubject + ", то ему нужно ходить на работу.");
+        }
+//  Задание 3.2
+        int ageChild = 23;
+        if (ageChild < 5) {
+            System.out.println("К сожалению тебе нельзя на аттракцион.");
+        }
+        else if (ageChild >=5 && ageChild<= 14) {
+            System.out.println("Ты можешь кататься на аттракционе только в сопровождении взрослого.");
+        }
+        else {
+            System.out.println("Ты можешь кататься на аттракционе.");
+        }
+//  Задание 3.3
+        int one = 1;
+        int two = 100;
+        int three = 900;
+        if (one > two && one > three) {
+            System.out.println(one + " самое большое число.");
+        }
+        else if (two > one && two > three) {
+            System.out.println(two + " самое большое число.");
+        }
+        else if (three > one && three > two) {
+            System.out.println(three + " самое большое число.");
+        }
+        else {
+            System.out.println("Все числа равны.");
+        }
 
-
+        }
 
     }
-}
+
